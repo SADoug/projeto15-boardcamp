@@ -1,0 +1,37 @@
+{
+  "name": "boardcamp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "projeto da formação - turma 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AulasDriven/boardcamp.git"
+  },
+  "keywords": [
+    "t5",
+    "driven"
+  ],
+  "author": "prof. diego pinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AulasDriven/boardcamp/issues"
+  },
+  "homepage": "https://github.com/AulasDriven/boardcamp#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
